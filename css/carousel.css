@@ -1,0 +1,31 @@
+.slider-inner{
+    position:relative;
+    overflow:hidden;
+    float:left;
+    border:#666 solid 1px;
+
+}
+.slider-inner img{
+    display:none;
+
+}
+
+.slider-inner img.active{
+    display:inline-block;
+
+}
+
+.prev, .next{
+    float:left;
+    cursor:pointer;
+}
+
+.prev{
+    position: relative;
+    z-index: 100;
+}
+
+.next{
+    position: relative;
+    z-index: 100;
+}
